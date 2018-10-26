@@ -646,6 +646,64 @@
 <wire x1="-0.75" y1="-2.5" x2="0.75" y2="-2.5" width="0" layer="51"/>
 <wire x1="0.75" y1="-2.5" x2="0.75" y2="-1.5" width="0" layer="51"/>
 </package>
+<package name="BETTER_AMP_MICRO_USB">
+<smd name="NC$1" x="-1" y="0" dx="1.5" dy="1.55" layer="1"/>
+<smd name="NC$2" x="1" y="0" dx="1.5" dy="1.55" layer="1"/>
+<smd name="USB_P" x="0" y="2.7" dx="0.4" dy="1.35" layer="1"/>
+<smd name="USB_N" x="-0.65" y="2.7" dx="0.4" dy="1.35" layer="1"/>
+<smd name="VBUS" x="-1.3" y="2.7" dx="0.4" dy="1.35" layer="1"/>
+<smd name="NC$3" x="0.65" y="2.7" dx="0.4" dy="1.35" layer="1"/>
+<smd name="GND" x="1.3" y="2.7" dx="0.4" dy="1.35" layer="1"/>
+<smd name="P$1" x="-2.9" y="0" dx="1.2" dy="1.55" layer="1"/>
+<smd name="P$2" x="2.9" y="0" dx="1.2" dy="1.55" layer="1"/>
+<circle x="-3.5" y="0.275" radius="0.5" width="0" layer="1"/>
+<rectangle x1="-4" y1="-0.275" x2="-3.5" y2="0.275" layer="1"/>
+<circle x="-3.5" y="-0.275" radius="0.5" width="0" layer="1"/>
+<circle x="3.5" y="0.275" radius="0.5" width="0" layer="1"/>
+<circle x="3.5" y="-0.275" radius="0.5" width="0" layer="1"/>
+<rectangle x1="3.5" y1="-0.275" x2="4" y2="0.275" layer="1"/>
+<wire x1="-3.5" y1="0.325" x2="-3.5" y2="-0.325" width="0.5" layer="46"/>
+<circle x="3.5" y="-0.275" radius="0.5" width="0" layer="1"/>
+<wire x1="3.5" y1="0.325" x2="3.5" y2="-0.325" width="0.5" layer="46"/>
+<pad name="P$3" x="-3.5" y="0.325" drill="0.5"/>
+<pad name="P$4" x="-3.5" y="-0.325" drill="0.5"/>
+<pad name="P$5" x="3.5" y="-0.325" drill="0.5"/>
+<pad name="P$6" x="3.5" y="0.325" drill="0.5"/>
+<wire x1="-3.94" y1="0.34" x2="-3.94" y2="-0.31" width="0.127" layer="29"/>
+<wire x1="3.935" y1="0.325" x2="3.935" y2="-0.325" width="0.127" layer="29"/>
+<pad name="P$7" x="-2.65" y="2.7" drill="0.55" diameter="0.95"/>
+<pad name="P$8" x="-2.35" y="2.7" drill="0.55" diameter="0.95"/>
+<pad name="P$9" x="2.35" y="2.7" drill="0.55" diameter="0.95"/>
+<pad name="P$10" x="2.65" y="2.7" drill="0.55" diameter="0.95"/>
+<wire x1="-2.65" y1="2.7" x2="-2.35" y2="2.7" width="0.55" layer="46"/>
+<wire x1="2.35" y1="2.7" x2="2.65" y2="2.7" width="0.55" layer="46"/>
+<wire x1="-2.675" y1="3.1" x2="-2.325" y2="3.1" width="0.15" layer="29"/>
+<wire x1="-2.675" y1="2.3" x2="-2.325" y2="2.3" width="0.15" layer="29"/>
+<wire x1="2.315" y1="2.3" x2="2.685" y2="2.3" width="0.15" layer="29"/>
+<wire x1="2.33" y1="3.1" x2="2.68" y2="3.1" width="0.15" layer="29"/>
+<wire x1="-2.675" y1="2.3" x2="-2.305" y2="2.3" width="0.15" layer="30"/>
+<wire x1="-2.34" y1="3.1" x2="-2.67" y2="3.1" width="0.15" layer="30"/>
+<wire x1="2.34" y1="3.1" x2="2.68" y2="3.1" width="0.15" layer="30"/>
+<wire x1="2.67" y1="2.3" x2="2.32" y2="2.3" width="0.15" layer="30"/>
+<wire x1="3.07" y1="0.33" x2="3.07" y2="-0.325" width="0.15" layer="30"/>
+<wire x1="3.925" y1="0.285" x2="3.93" y2="-0.315" width="0.15" layer="30"/>
+<wire x1="-3.93" y1="0.32" x2="-3.93" y2="-0.305" width="0.15" layer="30"/>
+<wire x1="-3.07" y1="0.3" x2="-3.07" y2="-0.325" width="0.15" layer="30"/>
+<wire x1="-8" y1="-1.45" x2="8" y2="-1.45" width="0.05" layer="51"/>
+<text x="-5.95" y="-3.05" size="1.27" layer="51">BOARD EDGE</text>
+<wire x1="-2.675" y1="3.075" x2="-2.325" y2="3.075" width="0.2" layer="1"/>
+<wire x1="-2.675" y1="2.325" x2="-2.325" y2="2.325" width="0.2" layer="1"/>
+<wire x1="2.35" y1="3.075" x2="2.675" y2="3.075" width="0.2" layer="1"/>
+<wire x1="2.325" y1="2.325" x2="2.675" y2="2.325" width="0.2" layer="1"/>
+<wire x1="2.325" y1="3.075" x2="2.675" y2="3.075" width="0.2" layer="16"/>
+<wire x1="2.325" y1="2.325" x2="2.675" y2="2.325" width="0.2" layer="16"/>
+<wire x1="-2.65" y1="3.075" x2="-2.325" y2="3.075" width="0.2" layer="16"/>
+<wire x1="-2.675" y1="2.325" x2="-2.3" y2="2.325" width="0.2" layer="16"/>
+<wire x1="-3.905" y1="0.325" x2="-3.905" y2="-0.31" width="0.2" layer="16"/>
+<wire x1="-3.095" y1="0.325" x2="-3.095" y2="-0.35" width="0.2" layer="16"/>
+<wire x1="3.095" y1="0.33" x2="3.095" y2="-0.325" width="0.2" layer="16"/>
+<wire x1="3.905" y1="0.345" x2="3.905" y2="-0.3" width="0.2" layer="16"/>
+</package>
 </packages>
 <symbols>
 <symbol name="WINDBOND_QSPI_FLASH">
@@ -1078,6 +1136,22 @@
 <connect gate="G$1" pin="GND@4" pad="P$8"/>
 <connect gate="G$1" pin="MODE_SENS" pad="P$4"/>
 <connect gate="G$1" pin="VBUS" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AMPHENOL_MICRO_USB_BETTER" package="BETTER_AMP_MICRO_USB">
+<connects>
+<connect gate="G$1" pin="DATA+" pad="USB_P"/>
+<connect gate="G$1" pin="DATA-" pad="USB_N"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="P$1"/>
+<connect gate="G$1" pin="GND@2" pad="P$2"/>
+<connect gate="G$1" pin="GND@3" pad="NC$2"/>
+<connect gate="G$1" pin="GND@4" pad="NC$1"/>
+<connect gate="G$1" pin="MODE_SENS" pad="NC$3"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2425,12 +2499,12 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="U$14" library="microbuilder" deviceset="GND" device=""/>
 <part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="330"/>
-<part name="U$15" library="00_bsiepert" deviceset="AMPHENOL_MICRO_USB" device=""/>
 <part name="U$16" library="00_bsiepert" deviceset="WINDBOND_QSPI_FLASH" device="WSON_6X5"/>
 <part name="U$2" library="00_bsiepert" deviceset="SWD_HEADER" device=""/>
 <part name="U$17" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1K"/>
 <part name="U$18" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="U$19" library="00_bsiepert" deviceset="AMPHENOL_MICRO_USB" device="AMPHENOL_MICRO_USB_BETTER"/>
 </parts>
 <sheets>
 <sheet>
@@ -2490,12 +2564,12 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <instance part="C1" gate="G$1" x="375.92" y="167.64"/>
 <instance part="U$14" gate="G$1" x="375.92" y="177.8" rot="R180"/>
 <instance part="R2" gate="G$1" x="381" y="193.04" rot="MR90"/>
-<instance part="U$15" gate="G$1" x="337.82" y="182.88" rot="R180"/>
 <instance part="U$16" gate="G$1" x="55.88" y="50.8"/>
 <instance part="U$2" gate="G$1" x="497.84" y="187.96" rot="R180"/>
 <instance part="U$17" gate="G$1" x="459.74" y="198.12" rot="MR0"/>
 <instance part="R3" gate="G$1" x="459.74" y="187.96" rot="MR90"/>
 <instance part="U$18" gate="G$1" x="528.32" y="182.88" rot="MR0"/>
+<instance part="U$19" gate="G$1" x="345.44" y="182.88" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2594,9 +2668,10 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <junction x="518.16" y="187.96"/>
 </segment>
 <segment>
-<pinref part="U$15" gate="G$1" pin="GND"/>
 <wire x1="325.12" y1="193.04" x2="314.96" y2="193.04" width="0.1524" layer="91"/>
 <label x="317.5" y="193.04" size="1.778" layer="95"/>
+<pinref part="U$19" gate="G$1" pin="GND"/>
+<wire x1="332.74" y1="193.04" x2="325.12" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -2677,13 +2752,16 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="93.98" x2="342.9" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="93.98" x2="337.82" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="93.98" x2="332.74" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="104.14" x2="342.9" y2="93.98" width="0.1524" layer="91"/>
 <junction x="342.9" y="93.98"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<junction x="337.82" y="93.98"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="317.6524" y1="99.06" x2="332.74" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VDDCORE"/>
+<wire x1="281.94" y1="104.14" x2="304.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="104.14" x2="312.42" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="96.52" x2="314.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="93.98" x2="337.82" y2="93.98" width="0.1524" layer="91"/>
+<junction x="337.82" y="93.98"/>
 </segment>
 </net>
 <net name="QSPI_IO0" class="0">
@@ -2720,9 +2798,10 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="276.86" y="-30.48" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="U$15" gate="G$1" pin="DATA-"/>
 <wire x1="325.12" y1="177.8" x2="314.96" y2="177.8" width="0.1524" layer="91"/>
 <label x="317.5" y="177.8" size="1.778" layer="95"/>
+<pinref part="U$19" gate="G$1" pin="DATA-"/>
+<wire x1="325.12" y1="177.8" x2="332.74" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -2847,9 +2926,10 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="276.86" y="-25.4" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="U$15" gate="G$1" pin="DATA+"/>
 <wire x1="325.12" y1="182.88" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
 <label x="317.5" y="182.88" size="1.778" layer="95"/>
+<pinref part="U$19" gate="G$1" pin="DATA+"/>
+<wire x1="325.12" y1="182.88" x2="332.74" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="QSPI_SCK" class="0">
@@ -3233,14 +3313,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="381" y1="198.12" x2="401.1676" y2="198.12" width="0.1524" layer="91"/>
 <label x="383.54" y="198.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="309.88" y1="99.06" x2="317.3476" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="104.14" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VDDCORE"/>
-<wire x1="281.94" y1="104.14" x2="304.8" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
