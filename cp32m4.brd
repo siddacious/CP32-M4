@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3326,15 +3326,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SJ1" library="00_bsiepert" package="SOLDERJUMPER_CLOSEDWIRE" value="" x="15.654015625" y="18.56485625" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="14.130015625" y="20.21585625" size="0.4064" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="U$5" library="00_bsiepert" package="ESP32_WROOM" value="WROOM" x="9.01191875" y="11.50111875" rot="R270"/>
+<element name="U$5" library="00_bsiepert" package="ESP32_WROOM" value="WROOM" x="9.01191875" y="11.50111875" smashed="yes" rot="R270"/>
 <element name="C1" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="16.97228125" y="4.079240625" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CAP-00810" x="16.97228125" y="4.079240625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="microbuilder" package="0603-NO" value="330" x="16.918940625" y="5.62101875" smashed="yes"/>
 <element name="U$16" library="00_bsiepert" package="WSON_6X5MM" value="WINDBOND_QSPI_FLASHWSON_6X5" x="3.683" y="16.129" smashed="yes" rot="R90"/>
-<element name="U$2" library="00_bsiepert" package="AMPHENOL_SWD" value="SWD_HEADER" x="21.971" y="6.096" rot="R180"/>
-<element name="R3" library="microbuilder" package="0603-NO" value="1K" x="19.62911875" y="18.62328125" rot="R90"/>
-<element name="U$19" library="00_bsiepert" package="BETTER_AMP_MICRO_USB" value="AMPHENOL_MICRO_USBAMPHENOL_MICRO_USB_BETTER" x="24.109678125" y="15.788640625" rot="R90"/>
+<element name="U$2" library="00_bsiepert" package="AMPHENOL_SWD" value="SWD_HEADER" x="21.971" y="6.096" smashed="yes" rot="R180"/>
+<element name="R3" library="microbuilder" package="0603-NO" value="1K" x="19.62911875" y="18.62328125" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.75611875" y="20.40128125" size="0.8128" layer="25" font="vector" ratio="18" rot="R90"/>
+<attribute name="VALUE" x="20.39111875" y="20.40128125" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="U$19" library="00_bsiepert" package="BETTER_AMP_MICRO_USB" value="AMPHENOL_MICRO_USBAMPHENOL_MICRO_USB_BETTER" x="24.109678125" y="15.788640625" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3413,9 +3416,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.8087" y1="19.8247" x2="18.5039" y2="19.8247" width="0.254" layer="16"/>
 <wire x1="18.5039" y1="19.8247" x2="18.42291875" y2="19.74371875" width="0.254" layer="16"/>
 <wire x1="18.42291875" y1="19.74371875" x2="18.02191875" y2="19.74371875" width="0.254" layer="16"/>
-<wire x1="0.43691875" y1="17.22111875" x2="0.23691875" y2="17.22111875" width="0" layer="19" extent="1-16"/>
-<wire x1="10.713759375" y1="11.992359375" x2="10.828021875" y2="9.926321875" width="0" layer="19" extent="1-1"/>
+<contactref element="U$19" pad="NC$2"/>
+<contactref element="U$19" pad="P$2"/>
+<contactref element="U$19" pad="P$1"/>
+<contactref element="U$19" pad="NC$1"/>
+<wire x1="24.109678125" y1="16.788640625" x2="24.109678125" y2="18.688640625" width="0" layer="19" extent="1-1"/>
+<wire x1="24.109678125" y1="14.788640625" x2="24.109678125" y2="16.788640625" width="0" layer="19" extent="1-1"/>
+<wire x1="24.109678125" y1="12.888640625" x2="24.109678125" y2="14.788640625" width="0" layer="19" extent="1-1"/>
+<wire x1="23.374975" y1="10.837103125" x2="24.109678125" y2="12.888640625" width="0" layer="19" extent="1-1"/>
 <wire x1="18.02191875" y1="2.72611875" x2="18.02191875" y2="2.92611875" width="0" layer="19" extent="1-16"/>
+<wire x1="10.828021875" y1="9.926321875" x2="10.713759375" y2="11.992359375" width="0" layer="19" extent="1-1"/>
+<wire x1="0.23691875" y1="17.22111875" x2="0.43691875" y2="17.22111875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="!RESET">
 <contactref element="R1" pad="1"/>
@@ -3639,9 +3650,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.40051875" y1="19.24468125" x2="18.4763625" y2="19.24468125" width="0.1524" layer="16"/>
 <wire x1="18.4763625" y1="19.24468125" x2="17.5501625" y2="18.31848125" width="0.1524" layer="16"/>
 <wire x1="24.511" y1="9.652" x2="24.511" y2="8.046" width="0.254" layer="1"/>
+<wire x1="19.62911875" y1="19.47328125" x2="19.40051875" y2="19.24468125" width="0.1524" layer="16"/>
 <wire x1="16.75191875" y1="20.07611875" x2="16.75191875" y2="20.27611875" width="0" layer="19" extent="1-16"/>
 <wire x1="16.75191875" y1="19.74371875" x2="16.75191875" y2="20.07611875" width="0" layer="19" extent="16-16"/>
-<wire x1="19.62911875" y1="19.47328125" x2="19.40051875" y2="19.24468125" width="0.1524" layer="16"/>
 </signal>
 <signal name="AREF">
 <contactref element="U$1" pad="4"/>
