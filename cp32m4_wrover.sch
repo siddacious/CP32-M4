@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -6612,7 +6612,7 @@ TCC1:
 <label x="45.72" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3" class="1">
+<net name="+3V3" class="0">
 <segment>
 <wire x1="71.12" y1="215.9" x2="73.66" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="215.9" x2="81.28" y2="215.9" width="0.1524" layer="91"/>
